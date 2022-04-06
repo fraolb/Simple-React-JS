@@ -1,0 +1,47 @@
+*,*::before,*::after{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    box-sizing: border-box ;
+
+}
+
+body{
+    background-color: slategray;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: dimgrey;
+    justify-content: space-between;
+}
+
+.top-right-header{
+    display: flex;
+    justify-content: space-between;
+    color: #61DAFB;
+    
+}
+
+.top-left-header{
+
+    color: aliceblue;
+}
+.body-part{
+    padding:57px 27px;
+    color: aliceblue;
+    background-image: url(./logo512.png);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y:75% ;
+}
+
+.body-part > ul > li{
+    padding: 10px;
+
+}
+
+.body-part > ul > li::marker{
+    font-size: 1.5rem;
+    color: #61DAFB;
+
+}
